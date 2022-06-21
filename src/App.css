@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 220px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+body {
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+  background-color: darkmagenta;
+}
+h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.form {
+  width: max-content;
+  margin: 20px auto;
+}
+.pagination-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: max-content;
+  margin: 0 auto;
+}
+.pagination-number-container{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+.pagination-prev-next{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 0, 135);
+  border-radius: 8px;
+}
+.page-number {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.page-active{
+  background-color: rgb(70, 0, 135);
+}
